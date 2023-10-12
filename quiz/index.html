@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Quiz do Enzo</title>
+</head>
+<body>
+    <div class="conteudo">
+        <div class="flex">
+            <h1>Bem vindo ao quiz da centroweg</h1>
+            <p>Nesse jogo, você terá que acertar perguntas sobre nossos <br>
+                 conhecimentos no curso, sobre os professores e a nossa turma,<br>
+                  quem acertar mais ganhará o maior ranking no podium!</p>
+            <div class="botoes">
+                <a href="jogo.html" class="botao" id="comecar">Começar</a>
+                <a href="ranking.html" class="botao">Ranking</a>
+            </div>
+            
+        <!-- </div>
+    
+        <div class="image">
+            <img src="/assets/basegio2.jpeg" alt="cores" class="basegio">
+        </div> -->
+    </div>
+    <script>
+        const comecar = document.getElementById("comecar");
+        comecar.addEventListener('click',()=>{
+            let nome = prompt("Qual é o seu nome?")
+            localStorage.setItem('nome',nome);
+        })
+    </script>
+</body>
+</html>

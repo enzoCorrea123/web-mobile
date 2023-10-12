@@ -1,0 +1,60 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #eee;
+    transition: background-color 0.5s, color 0.5s;
+}
+.flex{
+    display: flex;
+    justify-content: space-between;
+}
+.botao{
+    background-color: white;
+    border: 2px solid black;
+    border-radius: 10px;
+    width: 7%;
+}
+
+#campo-tarefa{
+    width: 50%;
+    border-radius: 20px;
+}
+#lista-tarefas {
+    list-style: none;
+    padding: 1%;
+    display: flex;
+    flex-direction: column;
+}
+li{
+    background-color: white;
+    padding: 1%;
+    border-radius: 10px;
+    border: 1px solid black;
+    display: flex;
+    justify-content: space-between;
+    color: black;
+}
+
+.concluida{
+    text-decoration: line-through;
+}
+.botao-excluir{
+    background-color: red;
+    border: 2px solid black;
+    color: white;
+    border-radius: 10px;
+    width: 5%;
+    padding: 5px;
+}
+.modo-claro{
+    background-color: #fcfcfc;
+    color: #111;
+}
+.modo-escuro{
+    background-color: #222;
+    color: #fcfcfc;
+}

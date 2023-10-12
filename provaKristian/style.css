@@ -1,0 +1,155 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;700&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-color: burlywood;
+    font-family: 'Poppins', sans-serif;
+}
+header{
+    background-color: rgb(125, 76, 47);
+    display: flex;
+    justify-content: space-between;
+}
+nav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 15%;
+
+}
+ul{
+    display: flex;
+    gap: 2rem;
+}
+a{
+    text-decoration: none;
+    color: aliceblue;
+    font-weight: 500;
+}
+a:hover{
+    text-decoration: underline;
+}
+li{
+   list-style: none;
+}
+.logo{
+    width: 5%;
+}
+.img-inicial img{
+    width: 100%;
+}
+.apresentacao{
+    display: flex;
+    flex-direction: row-reverse;
+    padding: 7rem;
+    gap: 1rem;
+}
+.apresentacao2{
+    display: flex;
+    flex-direction: row-reverse;
+    padding: 5rem;
+    gap: 1rem;
+}
+.titulo-inicial{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+}
+.titulo-inicial2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.titulo-inicial h1{
+    font-size: 35px;
+}
+.botao{
+    color: white;
+    border: 2px solid white;
+    padding: 2%;
+    border-radius: 10px;
+    font-size: 18px;
+    font-weight: 700;
+}
+.botao:hover{
+    background-color: black;
+    border-color: black;
+    text-decoration: none;
+}
+.servicos{
+    text-align: center;
+}
+.cards{
+    display: flex;
+    justify-content: space-between;
+    padding: 5rem;
+}
+.card-servico{
+    background-color: aliceblue;
+    border: 1px solid aliceblue;
+    border-radius: 10px;
+    padding: 1rem;
+}
+
+.rodape{
+    background-color: rgb(125, 76, 47);
+    color: aliceblue;
+    
+}
+.contato{
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    padding: 3rem;
+}
+.img{
+    width: 15%;
+}
+@media (max-width: 768px){
+    nav{
+        width: auto;
+    }
+    ul{
+        gap: 1rem;
+    }
+    .logo{
+        width: 8%;
+    }
+    .apresentacao{
+        padding: 4rem;
+        flex-direction: column-reverse;
+    }
+    .titulo-inicial{
+        gap: 1rem;
+    }
+    h1{
+        font-size: 30px;
+    }
+    p{
+        font-size: 18px;
+    }
+    .img-inicial{
+        width: auto;
+    }
+    .cards{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 2rem;
+    }
+    .card-servico{
+        padding: 2rem;
+    }
+
+    .contato{
+        flex-direction: column;
+        gap: 2rem;
+        text-align: left;
+    }
+}

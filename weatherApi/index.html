@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>API do tempo</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://kit.fontawesome.com/899dc4680e.js" crossorigin="anonymous"></script>
+</head>
+<body class="bg-[#eee]">
+    <div class="flex justify-center items-center min-h-screen">
+        <div class="w-auto h-auto bg-white text-black shadow-lg p-10">
+            <h1 class="font-semibold text-center text-2xl">Clima Atual</h1>
+
+            <div class="flex gap-3 justify-center p-5">
+                <input type="text" name="cidade" id="cidade" placeholder="Digite uma cidade:" class="w-56 p-1.5 rounded-full border-solid border-2 border-black">
+                <button class="border-solid p-2 rounded-md bg-sky-500" id="btn">Pesquisar</button>
+            </div>
+
+            <div id="info" class="text-center">
+            </div>
+        </div>
+    </div>
+      <script src="script.js"></script>
+</body>
+</html>

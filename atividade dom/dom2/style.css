@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Alice&family=Arvo&family=Bodoni+Moda&family=Cinzel&family=Crimson+Text&family=Domine&family=Inconsolata&family=Lato:ital,wght@1,300&family=Montserrat:wght@300&family=Oswald:wght@300&family=Poppins:ital,wght@1,300&family=Sofia&family=Tilt+Prism&family=Ubuntu:ital,wght@1,300&family=Ultra&display=swap');
+.flex{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+h1{
+    text-align: center;
+}
+.botao{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    align-self: flex-start;
+    padding-top: 5%;
+
+}
+button{
+    background-color: blue;
+    border: none;
+    padding: 5% 10%;
+    color: white;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: 0.25s ease-in-out;
+    box-shadow: 0 8px 8px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+
+}
+button:hover{
+    transform: scale(1.1);
+}
