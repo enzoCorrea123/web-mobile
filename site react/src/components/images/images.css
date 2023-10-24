@@ -1,0 +1,49 @@
+*{
+    font-family: 'Poppins', sans-serif;
+    padding: 0;
+    margin: 0;
+}
+.section{
+    background-image: url("/src/assets/background.png");
+    width: 100%;
+    padding-bottom: 10rem;
+    display: flex;
+    justify-content: flex-end;
+    
+}
+.quadrado{
+    background-color: #FFF3E3;
+    width: 35%;
+    margin-top: 10rem;
+    margin-right: 5rem;
+}
+.div-flex{
+    display: flex;
+    flex-direction: column;
+    margin: 2rem;
+}
+.discover{
+    color: #B88E2F;
+    font-size: 40px;
+    font-weight: 700;
+}
+.arrival{
+    font-weight: 500;
+    margin-top: 3rem;
+}
+.lorem-ipsum{
+    font-weight: 500;
+    font-size: 13px;
+}
+
+
+.button{
+    text-decoration: none;
+    color: white;
+    font-weight: 700;
+    background-color: #B88E2F;
+    width: 150px;
+    padding: 20px;
+    text-align: center;
+    margin: 20px;
+}

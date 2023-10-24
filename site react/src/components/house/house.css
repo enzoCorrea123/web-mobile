@@ -1,0 +1,18 @@
+.cards{
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+}
+.browse{
+    text-align: center;
+    padding: 3rem;
+    
+}
+h2{
+    font-size: 32px;
+    font-weight: 700;
+}
+p{
+    font-size: 20px;
+    font-weight: 400;
+}

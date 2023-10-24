@@ -1,0 +1,31 @@
+.moveis{
+    background-color: #F4F5F7;
+    display: inline;
+    padding-bottom: 8rem;
+}
+.title{
+    font-size: 24px;
+    font-weight: 600;
+}
+.description{
+    font-size: 16px;
+    font-weight: 500;
+}
+.prices{
+    display: flex;
+    gap: 1rem;
+    margin-bottom: 2rem;
+}
+.price{
+    font-size: 20px;
+    font-weight: 600;
+}
+.realPrice{
+    font-size: 16px;
+    font-weight: 400;
+    text-decoration: line-through;
+    color: #B0B0B0;
+}
+.poppins{
+    font-family: 'Poppins', sans-serif;
+}

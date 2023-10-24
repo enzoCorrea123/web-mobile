@@ -1,7 +1,27 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&family=Poppins:wght@300&display=swap');
-/* .furniro{
+.furniro{
     font-family: 'Montserrat', sans-serif;
 }
 .poppins{
     font-family: 'Poppins', sans-serif;
-} */
+}
+.header-flex{
+    display: flex;
+    justify-content: space-around;
+    padding: 1%;
+}
+.img-furniro{
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+}
+.nav-flex{
+    display: flex;
+    gap: 2rem;
+    align-items: center;
+}
+.bold{
+    font-weight: bold;
+}
+.bigger-icon{
+    font-size: 1.5rem;
+}
