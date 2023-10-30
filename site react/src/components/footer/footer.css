@@ -1,0 +1,48 @@
+.footer{
+    display: flex;
+    justify-content: space-around;
+    padding-bottom: 3rem;
+}
+.padding{
+    padding-bottom: 3rem;
+}
+.university{
+    width: 70%;
+    color: #9F9F9F;
+    font-weight: 400;
+    font-size: 16px;
+}
+.little-title{
+    color: #9F9F9F;
+    font-weight: 500;
+    font-size: 16px;
+}
+.txt-footer{
+    color: #000000;
+    font-weight: 500;
+    font-size: 16px;
+}
+.flex-footer{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+.footer-input{
+    border: 0;
+    border-bottom: 2px solid black;
+    margin-right: 1rem;
+}
+.footer-button{
+    text-decoration: none;
+    color: black;
+    border-bottom: 2px solid black;
+}
+hr{
+    width: 95%;
+    margin-left: 3%;
+}
+.last-txt{
+    margin-left: 3%;
+    font-weight: 400;
+    font-size: 16px;
+}

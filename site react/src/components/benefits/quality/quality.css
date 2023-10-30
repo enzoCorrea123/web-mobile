@@ -1,0 +1,13 @@
+.quality{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+.quality-h2{
+    font-size: 25px;
+    font-weight: 600;
+}
+.quality-p{
+    font-size: 20px;
+    font-weight: 500;
+}

@@ -1,7 +1,8 @@
 .moveis{
     background-color: #F4F5F7;
     display: inline;
-    padding-bottom: 8rem;
+    padding-bottom: 1rem;
+    
 }
 .title{
     font-size: 24px;
@@ -10,6 +11,8 @@
 .description{
     font-size: 16px;
     font-weight: 500;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
 }
 .prices{
     display: flex;

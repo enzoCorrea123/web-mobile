@@ -1,0 +1,90 @@
+.room{
+    background-color: #FCF8F3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 3rem;
+    padding: 3rem;
+}
+.texts{
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+.explore-more{
+    text-decoration: none;
+    color: white;
+    background-color: #B88E2F;
+    padding: 1rem;
+    width: 30%;
+    text-align: center;
+    font-weight: 600;
+}
+.bedroom1{
+    width: 30%;
+}
+.bedroom2{
+    width: 100%;
+    padding-bottom: 3rem;
+}
+.div-radios{
+    width: 25%;
+    display: flex;
+    flex-direction: column;
+}
+.radio{
+    display: flex;
+    gap: 3%;
+}
+.absolute{
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    width: 48px;
+    height: 48px;
+    top: 3150px;
+    left: 1400px;
+    border-radius: 30px;
+    box-shadow: 1px 1px 5px #888888;
+    
+}
+.container {
+    display: block;
+    position: relative;
+    padding-left: 35px;
+    margin-bottom: 12px;
+    cursor: pointer;
+    font-size: 22px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+  }
+  
+  .container input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+  }
+  
+  .checkmark {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 15px;
+    width: 15px;
+    background-color: #D8D8D8;
+    border-radius: 50%;
+  }
+  .h1-room{
+    font-size: 40px;
+    font-weight: 700;
+  }
+  .p-room{
+    font-size: 16px;
+    font-weight: 500;
+  }
+  

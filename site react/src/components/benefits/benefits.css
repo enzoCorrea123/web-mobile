@@ -1,0 +1,10 @@
+.flex{
+    background-color: #FAF3EA;
+    justify-content: space-around;
+    padding-bottom: 5rem;
+    padding-top: 5rem;
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    margin-bottom: 2rem;
+}
