@@ -1,0 +1,40 @@
+div {
+    font-family: Arial, sans-serif;
+    margin: 0 auto;
+    width: 80%;
+    max-width: 600px;
+    padding: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+  }
+  
+  /* Estilo para o título */
+  h1 {
+    color: #333;
+    text-align: center;
+  }
+  
+  /* Estilo para o campo de input */
+  input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+  
+  /* Estilo para a lista de itens */
+  ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  /* Estilo para cada item da lista */
+  li {
+    background-color: #f9f9f9;
+    border: 1px solid #eee;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 4px;
+  }
