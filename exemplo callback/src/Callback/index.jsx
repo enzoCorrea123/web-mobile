@@ -34,6 +34,7 @@ function exemplo(){
           <ul>
             {filterItems().map((item) => (
               <li key={item.id}>{item.name}</li>
+              
             ))}
           </ul>
         </div>
