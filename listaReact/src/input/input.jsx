@@ -17,6 +17,7 @@ function input(){
         let label = document.getElementById("label");
         let input = document.getElementById("input");
         let button = document.getElementById("button")
+        let theme = document.getElementById("theme")
 
         divMain.classList.toggle('body-light')
         divMain.classList.toggle('body-dark')
@@ -26,15 +27,20 @@ function input(){
         input.classList.toggle('input-dark')
         button.classList.toggle('button');
         button.classList.toggle('button-dark');
+        theme.classList.toggle('theme-white');
+        theme.classList.toggle('theme-black');
+
         
     },[theme])
 
     return(
         <div id='mainDiv' className='body-light'>
-            <button onClick={()=>setTheme(!theme)}>Mudar tema</button>
+            <div className='div-theme'>
+                <button onClick={()=>setTheme(!theme)} id="theme" className='theme-white'>Mudar tema</button>
+            </div>
             <section className='section-style'>
-                <label htmlFor="list" className='label' id='label'>Digite o item</label>
                 <div className='input-style'>
+                    <label htmlFor="list" className='label' id='label'>Digite o item</label>
                     <input type="text" className='input' id='input'/>
                     <a href="#" className='button' onClick={()=>handleClick()} id='button'>Confirmar</a>
                 </div>
