@@ -1,0 +1,20 @@
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    min-height: 80vh;
+}
+.div-button{
+    display: flex;
+    gap: 1rem;
+}
+.status{
+    font-size: larger;
+}
+.button{
+    border: none;
+    background-color: #111111;
+    color: white;
+    padding: 0.5rem;
+}
