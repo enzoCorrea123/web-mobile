@@ -8,6 +8,17 @@
   </head>
   <body>
     <div id="root"></div>
+    <script>
+      if('serviceWorker' in navigator){
+        window.addEventListener('load',()=>{
+          navigator.serviceWorker.register('./serviceWorker.js').then((req)=>{
+            console.log("Work")
+          }).catch((err)=>{
+            console.error("Erro no service worker",err);
+          })
+        })
+      }
+    </script>
     <script type="module" src="/src/main.jsx"></script>
   </body>
 </html>

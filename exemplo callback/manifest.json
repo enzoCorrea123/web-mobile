@@ -1,0 +1,21 @@
+{
+    "name": "ListaDeItens",
+    "short_name": "listinha",
+    "start_url": "index.html",
+    "theme_color": "#FFFFFF",
+    "background_color": "#FFFFFF",
+    "display": "standalone",
+    "icons": [
+      {
+        "src": "./public/logo2.png",
+        "type": "image/png",
+        "sizes": "192x192"
+      },
+      {
+        "src": "./public/logo2.png",
+        "type": "image/png",
+        "sizes": "512x512"
+      }
+    ]
+  }
+

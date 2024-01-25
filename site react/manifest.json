@@ -1,0 +1,22 @@
+
+{
+    "name": "Furniro",
+    "short_name": "furniro",
+    "start_url": "index.html",
+    "theme_color": "#B88E2F",
+    "background_color": "#FFF3E3",
+    "display": "standalone",
+    "icons": [
+      {
+        "src": "./public/logo.png",
+        "type": "image/png",
+        "sizes": "192x192"
+      },
+      {
+        "src": "./public/logo.png",
+        "type": "image/png",
+        "sizes": "512x512"
+      }
+    ]
+  }
+
