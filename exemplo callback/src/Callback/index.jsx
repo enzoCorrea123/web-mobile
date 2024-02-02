@@ -9,6 +9,7 @@ function exemplo(){
         { id: 4, name: 'Baseggio' },
         { id: 5, name: 'Winter' },
         { id: 6, name: 'Kaue' },
+        { id: 7, name: 'Daniel' },
       ]);
     
       const [filter, setFilter] = useState('');
